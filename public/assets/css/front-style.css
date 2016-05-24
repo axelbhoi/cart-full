@@ -1,0 +1,191 @@
+@font-face
+{
+  font-family: FjallaOne;
+  src: url(../css/fonts/FjallaOne-Regular.otf);
+} 
+
+
+@font-face
+{
+  font-family: Questrial;
+  src: url(../css/fonts/Questrial-Regular.otf);
+} 
+
+
+@font-face
+{
+  font-family: signhouse;
+  src: url(../css/fonts/SignPainter_HouseScript.ttf);
+} 
+
+@font-face
+{
+  font-family: oxygen;
+  src: url(../css/fonts/Oxygen.otf);
+} 
+
+
+@font-face
+{
+  font-family: oxygen-bold;
+  src: url(../css/fonts/Oxygen-Bold.otf);
+} 
+
+input{
+	display:block;
+	margin:0 auto;	
+	width:50%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.error-modal{
+	background: #ff3019; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */	
+}
+
+.login-bg{
+	-webkit-border-radius:2px;border-radius:2px;-moz-box-shadow:0px 2px 2px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0px 2px 2px rgba(0, 0, 0, 0.3);box-shadow:0px 2px 2px rgba(0, 0, 0, 0.3);background: #fcfff4; /* Old browsers */
+	background: -moz-linear-gradient(top, #fcfff4 0%, #e9e9ce 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(100%,#e9e9ce)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fcfff4 0%,#e9e9ce 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 ); /* IE6-9 */	
+}
+
+#loginbtn{
+	display:block;
+	margin:0 auto;
+	width:50%	
+}
+
+.header-the-text{
+  font-size:28px;font-family:signhouse;
+}
+
+.header-urban-text{
+  font-size:28px;font-family:FjallaOne;
+}
+
+#loginbtn{
+	color:#FFFFFF;
+	background-color: #221517;
+}
+
+#register-id{
+
+	padding:20px;
+	background-color:#357ebd;
+	color:#FFFFFF;
+}
+
+#form-register{
+	padding-top:40px;
+}
+
+#register-id > a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+#register-id > a:hover:focus{
+	text-decoration: none;
+}
+
+.circle{
+	width: 40px;
+  	height: 40px;
+  	background-color: #357ebd;
+  	border-radius: 50%;
+  	display: inline-block;
+  	font-size:20px;
+  	color:#FFFFFF;
+  	line-height: 39px;
+  	text-align:center;
+  	margin-bottom:30px;
+}
+
+.portfolio-item{
+	border: 1px solid #ddd;
+	text-align: center;
+}
+
+.navbar-default{
+	background-color: #FFFFFF!important;
+}
+
+.navbar-nav {
+	margin-top:2%!important;
+}
+
+.nav>li>a:hover{
+	text-decoration: none;
+    color: #FFFFFF !important;
+    background-color: #4d79ff !important;
+    -webkit-transition: background .25s, color .25s !important;
+    /*border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;*/
+}
+
+.isactive{
+	 text-decoration: none;
+    color: #FFFFFF !important;
+    background-color: #4d79ff !important;
+    -webkit-transition: background .25s, color .25s !important;
+    /*border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;	*/
+}
+
+.isactive-a{
+   text-decoration: none;
+    color: #FFFFFF !important;
+    background-color: #4d79ff !important;
+    -webkit-transition: background .25s, color .25s !important;
+    /*border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px; */ 
+}
+
+.nav>li{
+	padding-right:10px!important;
+}
+
+.carousel-indicators>li{
+	border-color: #FFFFFF!important;
+	border-width: 2px!important;
+}
+
+.carousel-indicators .active {
+	background-color:#333!important;
+}
+
+#cart:hover{
+	cursor: pointer;
+}
+
+.popover-content {
+    width: 300px;
+}
+
+.circle-cart {
+    width: 18px;
+    height: 18px;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+    color: #FFFFFF;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
